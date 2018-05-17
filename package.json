@@ -1,0 +1,25 @@
+{
+  "name": "pbrprototyping",
+  "version": "1.0.0",
+  "description": "Test for client",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.github.com/satiowadahc/PBRprototyping"
+  },
+  "keywords": [
+    "node",
+    "pbr",
+    "html"
+  ],
+  "author": "Chad A. Woitas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
