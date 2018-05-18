@@ -1,9 +1,10 @@
+ // load data
 const express = require('express');
 const app = express();
 const path = require('path');
 const bodyParser = require('body-parser');
 
-//Init MiddleWare
+ // Initialize MiddleWare
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname,'views'));
 
@@ -17,9 +18,9 @@ app.use((req,res,next)=>{
 
 
 
-//Pages
-
-//Home
+ // Pages
+ 
+ // Home
 app.get('/', (req,res)=>{
 	res.render('index');
 });
@@ -27,7 +28,7 @@ app.get('/', (req,res)=>{
 
 
 
- //Start the server
+ // Start the server
 app.listen(8020, ()=>{
 	console.log('Server Started on 8020')
 });
