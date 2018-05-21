@@ -5,9 +5,11 @@
 
  Current TODO List:
 	- Photo Galleries - nanogallery
-	- Fix Nav - CSS 
+	- Fix CSS 
+		Images
+		Nav
 	- Add content to Pages
-		About - Copy Pasta?
+		About
 		Automotive
 		Live Auctions
 		Upcoming Auctions
@@ -16,7 +18,7 @@
 		Store
 		Contact
 	- Member list
-		- DB?
+		- DB
 	- Encryption - Cert Bot 
 */
 
@@ -37,6 +39,7 @@ app.use((req,res,next)=>{
 	res.locals.errors = null;
 	next();
 });
+
 
  // Pages
  
@@ -63,6 +66,10 @@ app.get('/upcoming', (req,res)=>{
 
 app.get('/buyer', (req,res)=>{
 	res.render('buyers');
+});
+
+app.get('/sellers', (req,res)=>{
+	res.render('sellers');
 });
 
 app.get('/store', (req,res)=>{

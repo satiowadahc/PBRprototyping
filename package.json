@@ -20,9 +20,11 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
+    "el-controls": "^1.2.34",
+    "el.js": "^2.1.32",
     "express": "^4.16.3",
     "jquery": "^3.3.1",
-    "nanogallery": "^5.10.3",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "shop.js": "^2.2.42"
   }
 }
